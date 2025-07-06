@@ -1,17 +1,55 @@
+# SkillSync – AI-Powered Peer Learning Platform 🚀
 
-# skillsync-frontend
-🚀 Frontend of SkillSync – an AI-powered peer learning platform helping students discover collaborators with complementary skills. Built with React, Tailwind CSS, and modern web technologies for a sleek and engaging user experience.
+**SkillSync** is a modern web platform connecting people with complementary skills for collaborative learning and projects.  
+No more hunting random LinkedIn profiles — find your perfect learning partner instantly!
 
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Key Features
 
-Currently, two official plugins are available:
+✅ **AI Skill Matching**  
+Smart recommendations using AI/NLP to connect you with peers who complement your skills or share your interests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Live Chat & Calendar Integration**  
+Communicate in real-time and schedule collaborative sessions seamlessly.
 
-## Expanding the ESLint configuration
+✅ **Personalized Learning Paths**  
+Get AI-curated online courses and resources based on your skills and goals.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-2daece4 (Initial commit - SkillSync frontend setup with Vite + Tailwind)
+✅ **Gamified Experience**  
+Earn badges, endorsements, and keep your learning journey fun and rewarding.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, TailwindCSS, Redux
+- **Backend:** Node.js, Express
+- **Database:** MongoDB (flexible user profiles), MySQL (structured course data)
+- **AI Integration:** OpenAI embeddings / BERT for NLP-powered skill matching
+
+---
+
+## 🚀 How to Run Locally
+
+Clone the repo:
+
+```bash
+git clone git@github.com:Shrayash-hub/skillsync-frontend.git
+cd skillsync-frontend
+npm install
+npm run dev
+
+
+📈 Future Plans
+Authentication (JWT/OAuth)
+
+Role-based dashboards
+
+Advanced AI recommendations
+
+Live video chat integration
+
+Deploy frontend on Vercel/Netlify
+
+Build backend APIs
